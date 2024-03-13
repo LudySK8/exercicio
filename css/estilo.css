@@ -1,0 +1,114 @@
+body {
+    background-color: #282828;
+    color: #fff;
+}
+
+.cabecalho{
+    height: 80px;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+}
+
+.cabecalho .logo{
+    display: flex;
+    gap: 15px;
+    height: 80px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+}
+
+.cabecalho .menu li a{
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Chalet';
+}
+
+.cabecalho .menu li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.home .informacoes{
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
+}
+
+.home .informacoes img{
+    max-width: 150px;
+}
+
+.home .informacoes .lista-de-jogos{
+    display: flex;
+    gap: 32px;
+}
+
+.home .informacoes .titulo{
+    font-family: 'ChaletComprime';
+    font-size: 55px;
+    color: red;
+    font-weight: bold;
+}
+
+.home .informacoes .texto{
+    font-family: 'Chalet';
+    font-size: 18px;
+    line-height: 1.6;
+    color: red;
+    font-weight: bold;
+}
+
+.btn-comprar, .btn-plataforma{
+    background-color: rgba(30, 36, 116, 0.1);
+    border: 0.5px solid #fff;
+    border-radius: 4px;
+    font-family: 'ChaletComprime';
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
+    color: red;
+}
+
+.btn-plataforma{
+    color: red;
+    width: 100%;
+    cursor: pointer;
+}
+
+.home {
+    position: relative;
+}
+
+.informacoes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
